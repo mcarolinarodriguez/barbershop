@@ -1,6 +1,41 @@
 /*vendors
-@import 'vendors/bootstrap';
 @import 'vendors/jquery-ui';*/
+.header {
+  padding-top: 100px;
+  background-image: url("..assets/images/post-image.jpg");
+}
+
+.main {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px 100px 30px 100px;
+}
+
+nav {
+  background-color: #121619;
+}
+
+section {
+  background-color: #D1D1D1;
+  padding: 50px;
+  text-align: center;
+  height: 200px;
+}
+
+.footer {
+  background-color: #121619;
+  padding: 50px 0;
+}
+.footer__img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*pages
 @import 'pages/home';
 @import 'pages/contact';*/

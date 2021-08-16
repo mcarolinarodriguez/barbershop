@@ -9,56 +9,51 @@
         <title>Blog Barbershop</title>
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="132" height="53"alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
               </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
           </div>
         </div>
       </nav>
            
       
       <header>
-        <div>
+        <div class="container-fluid">
 <img src="assets/images/post-image.jpg" alt="">
 
+</div>
+<div>
+    <h1>5 formas de cuidar tu corte de cabello</h1>
 </div>
       </header>
 
 
-      <main>
+      <main class="main">
 <div>
     <p>12 de abril de 2018</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non nunc velit. Fusce in neque mauris. Praesent sagittis purus ac nulla accumsan, sed pharetra arcu eleifend. Aliquam et interdum lorem. Sed viverra ipsum et nisl sodales, vitae pulvinar lacus pulvinar. Quisque maximus, magna et congue mollis, turpis metus lobortis tellus, sit amet auctor tortor massa sed nisi. Vivamus dignissim vitae diam ut luctus. Praesent quis efficitur tellus, eu facilisis mi. Pellentesque interdum massa dui, a tristique est euismod sed. Sed scelerisque fringilla lorem. Phasellus consequat ipsum nisl, consectetur accumsan est posuere in. Cras sit amet lorem nec risus fermentum varius ac non nisl. Quisque faucibus eleifend leo, a vestibulum eros tristique vel. Proin tincidunt erat dapibus malesuada malesuada. Vestibulum sed volutpat est.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non nunc velit. Fusce in neque mauris. Praesent sagittis purus ac nulla accumsan, sed pharetra arcu eleifend. Aliquam et interdum lorem. Sed viverra ipsum et nisl sodales, vitae pulvinar lacus pulvinar. Quisque maximus, magna et congue mollis, turpis metus lobortis tellus, sit amet auctor tortor massa sed nisi. Vivamus dignissim vitae diam ut luctus. Praesent quis efficitur tellus, eu facilisis mi. <br> 
+  <br>  Pellentesque interdum massa dui, a tristique est euismod sed. Sed scelerisque fringilla lorem. Phasellus consequat ipsum nisl, consectetur accumsan est posuere in. Cras sit amet lorem nec risus fermentum varius ac non nisl. Quisque faucibus eleifend leo, a vestibulum eros tristique vel. Proin tincidunt erat dapibus malesuada malesuada. Vestibulum sed volutpat est.
 
     Vivamus laoreet rhoncus eros, vel accumsan est. Aliquam scelerisque vehicula orci, vel vulputate augue vulputate vitae. Pellentesque luctus, turpis nec semper tempor, augue turpis molestie lorem, eu rhoncus metus neque sit amet est. Ut non mauris at est hendrerit hendrerit. Ut pulvinar velit iaculis egestas dictum. Vestibulum ut mauris dui. Vestibulum eu vestibulum neque. Nam accumsan quis purus non efficitur.
     
@@ -70,8 +65,10 @@
 </div>
 
 <div>
-    <button type="button" class="btn btn-success">Compartir</button>
-    <button type="button" class="btn btn-success">Comentar en twitter</button>
+
+    <button type="button" class="btn btn-secondary btn-lg">Compartir</button>
+    <button type="button" class="btn btn-secondary btn-lg">Comentar en twitter</button>
+
 </div>
 <hr>
 <div>
@@ -86,25 +83,26 @@
       </main>
 
       <section>
+          <div class="section">
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
               <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
               </li>
               <li class="page-item"><a class="page-link" href="#">1</a></li>
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" href="#">Siguiente</a>
               </li>
             </ul>
           </nav>
+        </div>
       </section>
 
 
-      <footer>
+      <footer class="footer">
 <div>
-        <img src="assets/images/logo.png" alt="">
+        <img class="footer__img" src="assets/images/logo.png" alt="">
 
         
         </div>
