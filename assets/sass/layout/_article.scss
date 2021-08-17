@@ -1,8 +1,51 @@
-.article{
-    padding: 100px;
-    background-color: $white;
-    padding: 50px 0;
-    text-align: center;
-    border: $fuzzy-wuzzy;
-    
+.article {
+  display: inline-flex;
+  padding: 100px;
+  background-color: $white;
+  text-align: center;
+  border-color: $fuzzy-wuzzy;
+  border-width: 1rem;
+  
+  &__1 {
+    width: 30%;
+    display: inline-flex;
+    &__foto {
+      border-radius: 50%;
+      max-width: 150px;
+      max-height: 150px;
+    }
+    &__nombre {
+        font-family: $playfair;
+        font-weight: $bold;
+        font-size: $x-large;
+        color: $raisin-black;
+        text-align: center;
+        font-style: italic;
+        align-items: center; 
+    }
+    &__instg {
+      font-family: arial;
+      font-size: $large;
+      color: $ruddy-pink;
+      text-align: center;
+    }
+  }
+  &__2 {
+    padding: 40px;
+    width: 70%;
+    font-family: arial;
+    font-size: $medium;
+    color: $nickel;
+    text-align: justify;
+    text-align: justify;
+    line-height: 3rem;
+    letter-spacing: 2px;
+  
 }
+} 
+@media only screen and (max-width: 480px) {
+    .article__2 {
+      display: none;
+    }
+  }
+

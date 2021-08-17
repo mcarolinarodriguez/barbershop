@@ -19,13 +19,54 @@ h1 {
 }
 
 .article {
+  display: inline-flex;
   padding: 100px;
   background-color: #FFFFFF;
-  padding: 50px 0;
   text-align: center;
-  border: #E56353;
+  border-color: #E56353;
+  border-width: 1rem;
+}
+.article__1 {
+  width: 30%;
+  display: inline-flex;
+}
+.article__1__foto {
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+.article__1__nombre {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #222323;
+  text-align: center;
+  font-style: italic;
+  align-items: center;
+}
+.article__1__instg {
+  font-family: arial;
+  font-size: 18px;
+  color: #D76C69;
+  text-align: center;
+}
+.article__2 {
+  padding: 40px;
+  width: 70%;
+  font-family: arial;
+  font-size: 16px;
+  color: #6C6E70;
+  text-align: justify;
+  text-align: justify;
+  line-height: 3rem;
+  letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 480px) {
+  .article__2 {
+    display: none;
+  }
+}
 .header {
   padding-top: 2rem;
   background-image: url("../images/post-image.jpg");
