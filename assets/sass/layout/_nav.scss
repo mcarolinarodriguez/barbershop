@@ -1,4 +1,7 @@
 nav {
     background-color: $eerie-black;
+&__active {
+    color: $fuzzy-wuzzy;
+}
    
 }

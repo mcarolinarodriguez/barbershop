@@ -7,4 +7,17 @@
     align-items: left;
     padding: 30px 100px 30px 100px;
     
+&__btn {
+    padding-top: 2rem;
+}
+
+&__text {
+    color: $nickel;
+    font-family: arial;
+    text-align: justify;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    
+}
     }
+

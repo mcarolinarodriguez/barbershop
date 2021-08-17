@@ -1,0 +1,14 @@
+//Buttons 
+.btn {
+       border-radius: 50px;
+    //font-family: $raleway;
+    font-size: $medium;
+    color: $white;
+    background-color: $nickel;
+    &:hover {
+      background-color: $light-gray;
+      border-color: $white;
+      color: $white;
+    }
+  }
+  
